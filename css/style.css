@@ -15,7 +15,8 @@
 header {
     background-image: url(../img/pattern.png);
     background-color: rgb(0, 174, 255);
-    background-size: 15%;
+    background-size: auto 200% ;
+    background-position: top left;
 }
 
 h1 {
@@ -32,4 +33,11 @@ thead {
 
 .foot {
     background-color: rgb(0, 238, 255);
+    }
+
+#tim1 {
+    width: 49%;
+    height: 400px;
+    object-fit: cover;
 }
+
